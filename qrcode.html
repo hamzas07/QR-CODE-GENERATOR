@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="qrcode.css" />
+  </head>
+  <body>
+      
+      <div class="container">
+        <div><h1 class="head1"><u>QR CODE</u></h1></div>
+        <div><h1 class="head2"><u>Generator</u></h1></div>
+        <div class="input"><input type="text"
+        id="qrtext" placeholder="Enter Website URL" class="input"></div>
+        <div class="submi">
+          <button class="submit" id="btn" onclick="Generate()">SUBMIT</button>
+        </div>
+        <div class="result">
+          <img src="https://cdn-icons-png.flaticon.com/128/16389/16389449.png" id="qrimage" class="qimg">
+        </div>
+        
+      </div>
+      <script src="qrcode.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+body{
+  background-color: #002339;
+}
+.container {
+  box-shadow: 4px 4px 4px  white;
+  border-radius: 15px;
+  width:400px;
+
+  margin:65px auto;
+  padding:10px;
+  align-items: left;
+  
+  
+}
+.head1 {
+  color: #019f55;
+  margin-bottom: 1px;
+  font-family: Times New Roman;
+  font-size: 40px;
+}
+.head2 {
+  margin-top:2px;
+  color:white;
+  font-family: Times New Roman;
+  font-size: 35px;
+}
+.input {
+  width:90%;
+  height: 40px;
+  margin-top:10px;
+  font-family: Monospace;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.submit {
+  width:50%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top:30px;
+  background-color: #019f55;
+  color:white;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Courier New;
+  
+}
+.result {
+  text-align: center;
+}
+.qimg {
+  margin-top:20px;
+  margin-bottom:20px;
+}
